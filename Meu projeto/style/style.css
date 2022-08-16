@@ -1,0 +1,69 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{                               /*Desabilitando overflow*/
+    overflow: hidden;       
+}
+:root{
+    --verdeclaro:#027333;
+    --verdeescuro:#02733E;
+}
+header img{
+    margin: 20px 160px;
+}
+section{
+    margin:160px;
+    width: 700px;
+}
+section h1{
+    font-size: 50px;
+
+    font-weight: 700;
+}
+section #strongsb{                   /*Só o starbucks verde escrito no h1*/
+    color: var(--verdeclaro);
+}
+section p{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+section #bt{                        /*botão de learn more*/
+    background-color: var(--verdeclaro);
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+
+}
+#bola{
+    width: 1200px;
+    height: 1200px;
+    background-color: var(--verdeescuro);
+    border-radius: 50%;
+    position: absolute;
+    right: -550px;
+    top: -50px;
+    display: inline-block;
+}
+#redes img{
+    width: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 620px;
+
+}
+#facebook{
+    top: 220px;
+}
+#instagram{
+    top: 270px;
+}
+#twitter{
+    top:305px;
+}
